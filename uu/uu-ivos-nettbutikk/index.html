@@ -11,10 +11,15 @@
     <title>UU</title>
 </head>
 <body>
+    <a href="#hovedinnhold" class="snarvei">hopp til hovedinnhold</a>
     <div class="container">
         <!--Navigering-->
         <nav>
             <h4 id="logo"><a href="#">Logo</a></h4>
+            <form>
+            <input type="search" name="search" placeholder="søk etter merke, klør, etc...">
+            <button><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+            </form>
             <ul>
                 <li><a href="#">Nyheter</a></li>
                 <li><a href="#">Salg</a></li>
@@ -147,6 +152,18 @@
             </section>
             <section>
                 <h4>Kontakt oss</h4>
+
+                <form method="get" action="g">
+                    <label for="name">Navn</label>
+                    <input type="text" name="fname" placeholder="Ola Nordmann..." id="name">
+                    <label for="E-post">E-post</label>
+                    <input type="mail" name="mail" placeholder="E-post">
+                    <label for="Telefonnummer">Telefonnummer</label>
+                    <input type="tel" name="tel"    placeholder="Telefonnummer">
+                    <label for="Tekst">skriv en meling til oss</label>
+                    <textarea placeholder="Tekst"></textarea>
+                    <input type="submit" value="sumbit">
+                </form>
             </section>
         </div>
     </footer>
